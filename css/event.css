@@ -24,6 +24,13 @@
      height: 10px;
      width: 50px;
      margin-left: 5px;
+     
+ }
+ .container1 h2{
+    font-family: 'Marko One';
+ }
+ .container1 p{
+    font-family: 'Open Sans';
  }
 
  .container1::after {
