@@ -87,10 +87,13 @@
 
   .heading {
       font-family: 'Marko One';
-      font-size: 40px;
+      font-size: 38px;
       color: #e8e4d4;
+      border: 1px solid white;
+      padding-left: 90px;
 
   }
+
 
   .paragraph {
       color: #e8e4d4;
@@ -114,4 +117,16 @@
       text-decoration: none;
       color: #e8e4d4;
 
+  }
+
+  .navs li a:hover {
+      color: #3853a8;
+      transition: 0.2s;
+
+  }
+
+  .heading:hover {
+      color: #3853a8;
+      cursor: default;
+      transition: 0.2s;
   }
