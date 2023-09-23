@@ -112,6 +112,8 @@
     }
     .navbar li{
       display: block;
+      padding: 0px;
+      margin: 0px;
     }
     .navbar li a{
       display: none;
