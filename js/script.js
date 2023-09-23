@@ -1,9 +1,10 @@
-/* Responsive Navbar */
 function Navbar() {
-    var x = document.getElementById("small nav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+    const navbarLinks = document.querySelectorAll('.navbar li a');
+    navbarLinks.forEach(link => {
+        if (link.style.display === 'none' || link.style.display === '') {
+            link.style.display = 'inline';
+        } else {
+            link.style.display = 'none';
+        }
+    });
+}
