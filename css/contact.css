@@ -1,24 +1,23 @@
 .Top {
-    height: 100vh;
+    height: 120vh;
     display: flex;
-
+    margin-top: 0px;
+    justify-content: center;
 }
 
 .ph1 {
 
-    height: 540px;
-    margin: 50px 0px 0px 20%;
-
+    height: 650px;
+    margin-top: 62px;
 }
 
 .form .title span {
     text-decoration: underline;
-    margin-top: 0px;
 }
 
 .form .title {
     color: #3853a8;
     font-family: 'Marko One';
-    margin: 40px 0px 0px 35px;
-    font-size: 30px;
+    margin-left: 35px;
+    font-size: 37px;
 }
