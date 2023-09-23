@@ -1,5 +1,4 @@
-// Contact link
-const contact = document.getElementById('button');
-contact.addEventListener('click', function() {
-  window.location.href = 'https://www.newurl.com';
-});
+function Test() {
+var body = document.querySelector('body');
+body.style.backgroundColor = '#f4f1d6';
+}
