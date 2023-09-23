@@ -103,7 +103,7 @@
       margin-top: 2vh;
     }
   }
-  @media (max-width: 999px) {
+  @media (min-width: 100px) and (max-width: 999px) {
     .cloud{
       display: none;
     }
