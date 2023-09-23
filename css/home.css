@@ -15,7 +15,6 @@
   }
   .navbar li a {
     font-size: 26px;
-    display: block;
     padding: 14px 40px;
     text-decoration: none;
     color: #90908a;
@@ -26,10 +25,9 @@
     float: right;
     margin-right: 3vh;
     padding: 8px 20px;
-    border: 0.5px solid ;
-    font-family: 'Cairo';
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.829);
+    font-family: 'Open Sans';
+    color: #e1e1e1;
+    background-color: #060f30;
   }
   .x{
     font-weight: bold;
@@ -39,9 +37,9 @@
     text-decoration: underline;
     color: #000000b9;
   }
-  .navbar .title:hover{
+  .navbar .Title:hover{
     cursor: pointer;
-    background-color: rgb(0, 0, 0);
+    background-color: #03081a;
   }
   /* Main */
   .main{
@@ -65,8 +63,12 @@
     font-size: 26px;
     margin: 0px;
     font-weight: 900;
-    font-family: 'Cairo';
+    font-family: 'Open Sans';
+    color: #060f30;
     margin: 0px 20px 0px 20px;
+  }
+  .art p{
+    color: #595959;
   }
   .des{
     display: flex;
@@ -88,12 +90,11 @@
   #button:hover{
     cursor: pointer;
     background-color: rgba(241, 240, 233, 0.769)
-    
   }
 
   /* Responsive */
 
-  @media (min-width: 1000px) and (max-width: 1420px) {
+  @media (min-width: 1051px) and (max-width: 1420px) {
     .main {
         margin: auto;
         width: 580px;
@@ -103,7 +104,7 @@
       margin-top: 2vh;
     }
   }
-  @media (min-width: 100px) and (max-width: 999px) {
+  @media (min-width: 100px) and (max-width: 1050px) {
     .cloud{
       display: none;
     }
