@@ -84,10 +84,7 @@
       margin: 0;
   }
 
-  .content {
-      margin-left: 11%;
 
-  }
 
   .heading {
       font-family: 'Marko One';
@@ -101,9 +98,14 @@
       font-family: Arial, Helvetica, sans-serif
   }
 
+  .navs {
+      display: flex;
+  }
 
   .navs li {
-      display: inline-block;
+      display: flex;
+      margin: 5px;
+
 
   }
 
