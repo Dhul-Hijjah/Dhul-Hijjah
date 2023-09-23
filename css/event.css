@@ -12,53 +12,117 @@
  }
 
  .container1 {
-     border: 3px solid rgb(61, 101, 200);
+     border: 3px solid rgb(56, 86, 161);
      padding: 20px;
      position: relative;
+     width: 100%;
+     height: auto;
  }
-
  .container1 h2::before {
      content: "";
      display: block;
-     border-top: 3px solid rgb(100, 100, 244);
+     border-top: 3px solid rgb(56, 86, 161);
      height: 10px;
-     width: 50px;
+     width: 60px;
      margin-left: 5px;
-     
  }
  .container1 h2{
     font-family: 'Marko One';
  }
  .container1 p{
     font-family: 'Open Sans';
+    flex: 1;
  }
 
- .container1::after {
-     /* clearfix */
-     content: "";
-     clear: both;
-     display: table;
+ .para{
+    display: flex;
  }
-
- .para1,
- .para2,
- .para3 {
-     border: 1px solid black hidden;
-     padding: 10px;
-     float: left;
-     width: 33.33%;
- }
+ .para1, .para2, .para3 {
+    padding: 0 20px;
+}
 
  button {
-     padding: 6px 55px;
+     padding: 10px 55px;
      background-color: #010021;
      color: white;
-     margin: 0 10px;
+     margin:0 10px ;
  }
-
- .moonstar {
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+ /* .moonstar {
      position: relative;
      bottom: 4vh;
      background-color: #e8e4d4;
      padding: 0px 5px;
- }
+ } */
+
+ .moonstar{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #e8e4d4;
+    padding: 10px 40px;
+}
+.container2{
+    border: 1px solid;
+}
+.point1 h2::before {
+    content: "";
+    display: block;
+    border-top: 3px solid rgb(56, 86, 161);
+    height: 10px;
+    width: 100px;
+    margin-left: 5px;
+}
+.point1{
+    border: 3px solid rgb(56, 86, 161);
+    padding: 10px;
+    float: right;
+    width: 300px;
+    text-align-last: center;
+}
+.point1 h2::before {
+    content: "";
+    display: block;
+    border-top: 3px solid rgb(56, 86, 161);
+    height: 10px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.point2{
+    border: 3px solid rgb(56, 86, 161);
+    padding: 10px;
+}
+.point2 h2::before {
+    content: "";
+    display: block;
+    border-top: 3px solid rgb(56, 86, 161);
+    height: 10px;
+    width: 100px;
+    margin-left: 5px;
+}
+.point2::after{
+    /* clearfix */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.point3{
+    border: 3px solid rgb(56, 86, 161);
+    padding: 10px;
+}
+.point3 h2::before {
+    content: "";
+    display: block;
+    border-top: 3px solid rgb(56, 86, 161);
+    height: 10px;
+    width: 100px;
+    margin-left: 5px;
+}
