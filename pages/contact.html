@@ -28,14 +28,37 @@
 
 	<section class="Top">
 
-		<img class="ph1" src="../images/elements/Contact Us/Design.png" alt="">
-		</div>
+		<img class="ph1" src="/images/elements/Contact Us/Design.png" alt="">
 
-		<div class="form">
+
+		<div class="head">
 			<div class="title">
 				<h1>Register to <br>our<span> Newsletter!</span></h1>
 			</div>
+			<form action="/submitemail.php" target="_blank" method="get" autocomplete="on">
+				<div>
+					<input type="fname" placeholder="First Name" id="fname" name="fname" required>
+				</div>
+				<br>
+				<div>
+					<input type="lname" placeholder="Last Name" id="lname" name="lname" required>
+				</div>
+				<br>
+				<div>
+					<input type="email" id="email" name="email" placeholder="Email Subject" required>
+				</div>
+				<br>
+				<div>
+
+					<textarea name="txtarea" id="txtarea" cols="30" rows="10"
+						placeholder="Write something here..."></textarea>
+				</div>
+				<br>
+				<div>
+					<input type="submit" value="SUBMIT EMAIL">
+				</div>
 		</div>
+		</form>
 
 	</section>
 	<!--Page before the footer-->

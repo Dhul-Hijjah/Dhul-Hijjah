@@ -11,13 +11,17 @@
     margin-top: 62px;
 }
 
-.form .title span {
+.head .title span {
     text-decoration: underline;
 }
 
-.form .title {
+.head .title {
     color: #3853a8;
     font-family: 'Marko One';
     margin-left: 35px;
     font-size: 37px;
+}
+
+form {
+    margin-left: 35px;
 }
