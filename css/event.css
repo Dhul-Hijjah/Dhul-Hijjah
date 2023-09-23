@@ -1,0 +1,55 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0 30px;
+ }
+
+ .center {
+     display: block;
+     margin: 0 auto;
+ }
+
+ .container1 {
+     border: 3px solid rgb(61, 101, 200);
+     padding: 20px;
+     position: relative;
+ }
+
+ .container1 h2::before {
+     content: "";
+     display: block;
+     border-top: 3px solid rgb(100, 100, 244);
+     height: 10px;
+     width: 50px;
+     margin-left: 5px;
+ }
+
+ .container1::after {
+     /* clearfix */
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+ .para1,
+ .para2,
+ .para3 {
+     border: 1px solid black hidden;
+     padding: 10px;
+     float: left;
+     width: 33.33%;
+ }
+
+ button {
+     padding: 6px 55px;
+     background-color: #010021;
+     color: white;
+     margin: 0 10px;
+ }
+
+ .moonstar {
+     display: block;
+     position: static;
+ }
