@@ -68,9 +68,7 @@
     background-color: #e8e4d4;
     padding: 10px 40px;
 }
-.container2{
-    border: 1px solid;
-}
+
 .point1 h2::before {
     content: "";
     display: block;
@@ -82,7 +80,7 @@
 .point1{
     border: 3px solid rgb(56, 86, 161);
     padding: 10px;
-    float: right;
+    /* float: right; */
     width: 300px;
     text-align-last: center;
 }
