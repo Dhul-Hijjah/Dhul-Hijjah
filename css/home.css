@@ -43,7 +43,6 @@
     cursor: pointer;
     background-color: rgb(0, 0, 0);
   }
-
   /* Main */
   .main{
     margin-top: 6vh;
@@ -83,6 +82,9 @@
     margin: 0px;
     font-family: 'Marko One';
   }
+  #nav{ display: none;}
+  #contact{ display: none;}
+
   #button:hover{
     cursor: pointer;
     background-color: rgba(241, 240, 233, 0.769)
@@ -97,14 +99,44 @@
         width: 580px;
         flex-direction: column;
     }
+    #art2{
+      margin-top: 2vh;
+    }
   }
-  @media (min-width: 600px) and (max-width: 999px) {
-    .navbar{
+  @media (max-width: 999px) {
+    .cloud{
       display: none;
     }
-    .main {
-        margin: auto;
-        width: 580px;
-        flex-direction: column;
+    .navbar .Title{
+      display: none;
+    }
+    .navbar li{
+      display: block;
+    }
+    .navbar li a{
+      display: none;
+    }
+    .navbar{
+      text-align: center;
+    }
+    #contact{
+      display: block;
+    }
+    #nav{
+      display: block;
+    }
+    .main{
+      display: block;
+     flex-direction: column;
+     margin: auto;
+     margin-top: 5vh;
+    }
+    #art2{
+      margin-top: 5vh;
+      margin-left: 0px;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
     }
   }
