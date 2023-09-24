@@ -1,0 +1,48 @@
+ 
+ *{
+    box-sizing: border-box;
+
+ }
+ .button button{
+    float: left;
+    padding: 8px 50px;
+    margin: 30px;
+    color:#f0f0f0;
+    background-color:#333;
+}
+.p2{
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 900;
+    font-family: 'Open Sans';
+    color: #060f30;
+    margin: 0px 20px 0px 20px;
+  }
+
+ .page p{
+    color: #595959;
+  }
+  .page{
+    display: flex;
+  }
+  .artbox{
+    display: flex;
+    flex-direction: column;
+  }
+  .artbox h1{
+    font-family: 'Marko One';
+    font-size: 50px;
+    margin: 0px 20px 0px 20px;
+    color: #3853a8;
+    float: left;
+  }
+  .p button h1{
+    border: 2px solid black ;
+  }
+  .image{
+    margin: 10px;
+  }
+  .image img{
+    width: 300px;
+    height: 300px;
+  }
