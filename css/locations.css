@@ -32,3 +32,23 @@ color: #e0e0d6;
 .char {
     text-align: center;
 }
+.char h2{
+font-family: 'Marko One';
+font-size: 30px;
+color: rgb(46, 46, 140);
+}
+.char p{
+    font-family: 'Open Sans';
+    font-size: x-small;
+
+}
+.char h3{
+    font-family: 'Marko One';
+    font-size: 30px;
+    color: rgb(46, 46, 140);
+    }
+    .char h4{
+        font-family: 'Marko One';
+        font-size: 30px;
+        color: rgb(46, 46, 140);
+        }
