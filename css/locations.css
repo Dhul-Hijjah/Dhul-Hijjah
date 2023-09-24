@@ -1,5 +1,5 @@
 .mainsite{
-    background-color: #3853a8;
+    background-color: #384e96;
     justify-content: center;
     overflow: hidden;
 }
@@ -9,11 +9,18 @@
 }
 .img-text h1{
     font-family: 'Marko One';
-    font-size: 100px;
-    margin: 0px;
+    font-size: 90px;
+    margin: 0%;   
     color: #e0e0d6;
 }
 .img-text p{
     font-family: 'Open Sans';
+    color: #e0e0d6;
+    font-size: x-small;
+    margin: 0%;
+}
+
+.img-button{
+   
     color: #e0e0d6;
 }
