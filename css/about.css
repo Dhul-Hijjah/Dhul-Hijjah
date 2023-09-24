@@ -5,7 +5,7 @@
  /* Slider */
  .slider{
   background-color: #4054ac;
-  margin: 3vh 0vh 3vh 0vh;
+  margin: 5vh 0vh 5vh 0vh;
   display: flex;
   justify-content: space-around;
  }
@@ -18,9 +18,11 @@
  }
  .slide h1{
   font-family: 'Marko One';
+  color: #040c34;
  }
  .slider p{
   font-family: 'Open Sans';
+  color: #595959;
  }
  /* Main */
  .button button{
