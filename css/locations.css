@@ -28,5 +28,7 @@ color: #e0e0d6;
  width: 150px;
  height: 40px;
  
-  
+}
+.char {
+    text-align: center;
 }
