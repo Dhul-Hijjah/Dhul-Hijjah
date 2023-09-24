@@ -1,7 +1,7 @@
   /* Before footer*/
 
   .Top {
-      height: 100vh;
+      height: 120vh;
 
       display: flex;
       margin-top: 0px;
@@ -83,7 +83,7 @@
 
       background-color: #010c2e;
       margin: 0;
-      height: 90vh;
+      height: 100vh;
 
   }
 
