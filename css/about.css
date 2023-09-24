@@ -1,5 +1,52 @@
-.button{
+ 
+ *{
+    box-sizing: border-box;
+
+ }
+ .ph1 {
+
+    height: 300px;
+    width: 300px;
+    margin-top: 62px;
     float: right;
-margin: 20px;
-color: white;
 }
+ 
+ .button button{
+    float: left;
+    padding: 8px 50px;
+    margin: 30px;
+    color:#f0f0f0;
+    background-color:#333;
+}
+.p1{
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 900;
+    font-family: 'Open Sans';
+    color: #060f30;
+    margin: 0px 20px 0px 20px;
+  }
+
+ .main p{
+    color: #595959;
+  }
+  .h1{
+    font-family: 'Marko One';
+    font-size: 50px;
+    margin: 0px 20px 0px 20px;
+    color: #3853a8;
+    float: left;
+  }
+
+  .ph1 .h1{
+    float: left;
+  }
+
+  .p button h1{
+    border: 2px solid black ;
+  }
+  .ph1  .button button .p1 .h1{
+    
+    display: flex;
+    flex-direction: column;
+  }
