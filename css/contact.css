@@ -1,7 +1,8 @@
   /* Before footer*/
 
   .Top {
-      height: 117vh;
+
+
       display: flex;
       margin-top: 0px;
       justify-content: center;
@@ -79,7 +80,7 @@
   /*footer*/
 
   footer {
-      height: 90vh;
+
       background-color: #010c2e;
       margin: 0;
   }
