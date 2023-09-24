@@ -79,7 +79,7 @@
   /*footer*/
 
   footer {
-      height: 80vh;
+      height: 90vh;
       background-color: #010c2e;
       margin: 0;
   }
@@ -101,7 +101,7 @@
       display: flex;
       margin-left: 2vh;
       padding: 0px;
-    
+
   }
 
 
@@ -114,6 +114,7 @@
       font-family: 'Cairo';
       text-decoration: none;
       color: #e8e4d4;
+
   }
 
   .navs li a:hover {
@@ -126,8 +127,30 @@
       cursor: default;
       transition: 0.2s;
   }
-  
-  .content{
-   
-    margin-left: 20vh;
+
+  .content {
+
+      margin-left: 10vh;
+      padding: 50px;
+  }
+
+  .heading img {
+      float: right;
+      clear: both;
+      position: relative;
+      padding-right: 60px;
+      margin-top: 10px;
+
+  }
+
+  .navs .col1 {
+      padding-left: 15vh;
+  }
+
+  .navs .col2 {
+      padding-left: 15vh;
+  }
+
+  .navs .col3 {
+      padding-left: 15vh;
   }
