@@ -102,13 +102,12 @@
       display: flex;
       margin-left: 2vh;
       padding: 0px;
-
   }
 
 
   .navs li {
       list-style: none;
-      padding: 10px 10px 10px 0px;
+      padding: 10px 20px 10px 0px;
   }
 
   .navs li a {
@@ -130,9 +129,7 @@
   }
 
   .content {
-
       margin-left: 10vh;
-      padding: 50px;
   }
 
   .heading img {
