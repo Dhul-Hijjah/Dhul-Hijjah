@@ -105,7 +105,7 @@
       margin-top: 2vh;
     }
   }
-  @media (min-width: 100px) and (max-width: 1050px) {
+  @media (max-width: 1050px) {
     .cloud{
       display: none;
     }
@@ -130,10 +130,10 @@
       display: block;
     }
     .main{
-      display: block;
      flex-direction: column;
      margin: auto;
      margin-top: 5vh;
+     overflow: hidden;
     }
     #art2{
       margin-top: 5vh;
@@ -142,5 +142,15 @@
     body{
       display: flex;
       flex-direction: column;
+    }
+  }
+  @media (max-width: 800px) {
+    body{
+      zoom: 0.7;
+    }
+  }
+  @media (max-width: 550px) {
+    body{
+      zoom: 0.5;
     }
   }
