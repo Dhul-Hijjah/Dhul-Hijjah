@@ -1,8 +1,28 @@
  
  *{
     box-sizing: border-box;
-
  }
+ /* Slider */
+ .slider{
+  background-color: #4054ac;
+  margin: 3vh 0vh 3vh 0vh;
+  display: flex;
+  justify-content: space-around;
+ }
+ .slide{
+  margin: 2vh;
+  background-color: #e8e4d4;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2vh;
+ }
+ .slide h1{
+  font-family: 'Marko One';
+ }
+ .slider p{
+  font-family: 'Open Sans';
+ }
+ /* Main */
  .button button{
     float: left;
     padding: 8px 50px;
@@ -18,7 +38,6 @@
     color: #060f30;
     margin: 0px 20px 0px 20px;
   }
-
  .page p{
     color: #595959;
   }

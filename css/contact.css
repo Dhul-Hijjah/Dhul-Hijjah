@@ -80,11 +80,9 @@
   /*footer*/
 
   footer {
-
       background-color: #010c2e;
       margin: 0;
       height: 100vh;
-
   }
 
   .heading {
@@ -116,7 +114,6 @@
       font-family: 'Cairo';
       text-decoration: none;
       color: #e8e4d4;
-
   }
 
   .navs li a:hover {
@@ -133,7 +130,6 @@
   .content {
       margin-left: 10vh;
       padding-top: 7vh;
-
   }
 
   .heading img {
@@ -142,7 +138,6 @@
       position: relative;
       padding-right: 60px;
       margin-top: 10px;
-
   }
 
   .navs .col1 {
@@ -180,6 +175,4 @@
       float: right;
       clear: both;
       margin-right: 7vh;
-
-
   }
