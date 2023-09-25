@@ -94,7 +94,7 @@
 }
 
 .big-box{
-border: hidden 2px black;
+/* border: hidden 2px black; */
 margin: 0 0 0 10vh;
 }
 .about-box {
@@ -131,7 +131,11 @@ margin: 0 0 0 10vh;
   }
 .b1{
   display: flex;
-  margin: 50px 50px;
+  margin: 50px 50px 0;
+}
+.b2{
+display: flex;
+margin: 0 50px;
 }
 .p3{
   border:hidden 2px black;
