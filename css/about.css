@@ -96,17 +96,20 @@
 .big-box{
 border: hidden 2px black;
 margin: 0 0 0 10vh;
+padding:0px  100px;
 }
 .about-box {
   margin: 1vh 10vh 7vh 0vh;
-  border: solid 3px #3853a8;
+  border: solid 5px #3853a8;
   font-family: 'Cairo';
   padding: 1vh;
   display: flex;
-  ;
+  height: 150px;
+  border-spacing: 15px;
+
 }
 .icons{
-  border: solid 2px green;
+  border: hidden 2px green;
   margin:auto ;
   padding: 10px;
    width: 100px;
@@ -115,7 +118,10 @@ margin: 0 0 0 10vh;
 
   .text{
     margin: 10px;
-    border: solid 2px green;
+    border: hidden 2px green;
+  }
+  .text p{
+    padding: 0px;
   }
   .text h3{
   font-family: 'Marko One';
@@ -139,5 +145,5 @@ margin: 0 0 0 10vh;
   text-align: center;
 }
  p{
-  padding: 0;
+  padding: -1px;
 }
