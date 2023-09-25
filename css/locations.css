@@ -30,40 +30,34 @@ color: #e0e0d6;
  
 }
  
-.box{
-text-align: center;  width: 300px;
-margin-left: 700px;
-
+.char{
+    text-align: center;
 }
 
-.box h2{
+.char h2{
 font-family: 'Marko One';
 font-size: 30px;
 color: rgb(46, 46, 140);
-text-align: center; 
-
+text-align: center;
 }
 
-.box p{
+.char p{
     font-family: 'Open Sans';
     font-size: x-small;
-    color: black;
-    text-align: center;
-
+color: #090808f9;    text-align: center;
 }
 
-.box h3{
+.char h3{
     font-family: 'Marko One';
     font-size: 30px;
     color: rgb(46, 46, 140);
-    text-align: center; 
-
+    text-align: center;
     }
 
-    .box h4{
+    .char h4{
         font-family: 'Marko One';
         font-size: 30px;
         color: rgb(46, 46, 140);
-        text-align: center; 
+        text-align: center;
         }
     
