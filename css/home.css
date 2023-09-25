@@ -9,7 +9,6 @@
   /* Navbar */
   .navbar {
     margin: 5vh 5vh 0vh 5vh;
-   
   }
   .navbar li {
     display: inline-block;
@@ -119,6 +118,8 @@
     }
     .navbar li a{
       display: none;
+      text-align: center;
+      justify-content: c;
     }
     .navbar{
       text-align: center;
@@ -137,7 +138,6 @@
     }
     #art2{
       margin-top: 5vh;
-      margin-left: 0px;
     }
     body{
       display: flex;
