@@ -1,7 +1,7 @@
   /* Before footer*/
 
   .Top {
-      height: 120vh;
+
 
       display: flex;
       margin-top: 0px;
@@ -82,7 +82,7 @@
   footer {
       background-color: #010c2e;
       margin: 0;
-      height: 100vh;
+
   }
 
   .heading {
@@ -96,6 +96,7 @@
       color: #e8e4d4;
       font-family: Arial, Helvetica, sans-serif;
       margin-left: 6vh;
+      font-size: large;
   }
 
   .navs {
@@ -114,6 +115,7 @@
       font-family: 'Cairo';
       text-decoration: none;
       color: #e8e4d4;
+      font-size: large;
   }
 
   .navs li a:hover {
@@ -129,7 +131,7 @@
 
   .content {
       margin-left: 10vh;
-      padding-top: 7vh;
+      padding-top: 6vh;
   }
 
   .heading img {
@@ -154,6 +156,7 @@
 
   .icons {
       margin-left: 5vh;
+      padding-top: 2vh;
   }
 
   .icons img {
