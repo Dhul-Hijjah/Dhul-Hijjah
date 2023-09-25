@@ -57,10 +57,10 @@
     float: left;
   }
   .p button h1{
-    border: 2px solid black ;
+    border:hidden 2px  black ;
   }
   .image{
-    border: solid 2px black;
+    border: hidden 2px black;
     margin: 20px;
     padding: 10px;
   }
@@ -69,21 +69,22 @@
     height: 350px;
   }
 .artbox{
-  border: solid 2px black;
+  border: hidden 2px black;
     margin: 20px;
     padding: 10px;
 }
 .page {
-  border: solid 2px red;
+  border: hidden 2px red;
    margin: 0px;
 }
 .page2{
  
-  border: solid 2px red;
+  border: hidden 2px red;
   margin-top: 200px;
+
 }
 .page2 h1{
-  border: solid 2px black;
+  border: hidden 2px black;
   text-align: center;
   font-family: 'Marko One';
     font-size: 50px;
@@ -91,23 +92,29 @@
   color: #3853a8;
 
 }
+
+.big-box{
+border: hidden 2px black;
+margin: 0 0 0 10vh;
+}
 .about-box {
-  margin: 1vh 0vh 7vh 0vh;
+  margin: 1vh 10vh 7vh 0vh;
   border: solid 3px #3853a8;
   font-family: 'Cairo';
   padding: 1vh;
   display: flex;
+  ;
 }
 .icons{
   border: solid 2px green;
   margin:auto ;
   padding: 10px;
-}
-.icons{
-  width: 100px;
+   width: 100px;
   height: 100px;
 }
+
   .text{
+    margin: 10px;
     border: solid 2px green;
   }
   .text h3{
@@ -127,7 +134,10 @@
   margin: 50px 50px;
 }
 .p3{
-  border:solid 2px black;
-  margin: 20px 250px ;
+  border:hidden 2px black;
+  margin: 5px 400px ;
   text-align: center;
+}
+ p{
+  padding: 0;
 }
