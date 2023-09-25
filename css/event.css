@@ -11,14 +11,14 @@
      margin: 0 auto;
  }
 
- .container1 {
+ .container {
      border: 3px solid #3853a8;
      padding: 20px;
      position: relative;
      width: 100%;
      height: auto;
  }
- .container1 h2::before {
+ .container h2::before {
      content: "";
      display: block;
      border-top: 3px solid #3853a8;
@@ -26,10 +26,10 @@
      width: 60px;
      margin-left: 5px;
  }
- .container1 h2{
+ .container h2{
     font-family: 'Marko One';
  }
- .container1 p{
+ .container p{
     font-family: 'Open Sans';
     flex: 1;
  }
@@ -53,13 +53,6 @@
     text-align: center;
     margin: 20px;
 }
- /* .moonstar {
-     position: relative;
-     bottom: 4vh;
-     background-color: #e8e4d4;
-     padding: 0px 5px;
- } */
-
  .moonstar{
     width: 120px;
     position: absolute;
@@ -68,83 +61,64 @@
     background-color: #e8e4d4;
     padding: 10px 40px;
 }
-.container2{
+
+.container1{
     display: flex;
     margin: 150px 0 0 0;
 }
 .tips-p{
-    border: 2px solid hidden; 
+    border: 2px solid ; 
     padding-right: 20vh;
+    margin-right: 10px;
 }
 .tips-p h1{
     color: #3853a8;
     font-family: 'Marko One';
     font-size: 50px;
 }
-.tips-p p{
-    /* position: absolute; */
-    bottom: 0;
-}
 
 .num{
     font-size: 50px;
     font-family: 'Marko One';
     color: #3853a8;
-    padding: 0;
 }
-.point1 h2::before {
-    content: "";
-    display: block;
-    border-top: 3px solid #3853a8;
-    height: 10px;
-    width: 100px;
+hr{
+    border:none ;
+    height: 3px;
+    background-color: #3853a8;
 }
 .point1{
     border: 3px solid #3853a8;
     padding: 0 30px;
-    margin: 0 0 0 20px;
-    width: 400px;
-    /* height: 350px; */
+    margin-left: 50px; ;
     text-align-last: center;
-}
-.point1 h2::before {
-    content: "";
-    display: block;
-    border-top: 3px solid #3853a8;
-    height: 10px;
-    width: 240px;
 }
 
 .point2{
     border: 3px solid #3853a8;
     padding: 0 30px;
     text-align-last: center;
-    width: 400px;
-    /* height: 350px; */
-}
-.point2 h2::before {
-    content: "";
-    display: block;
-    border-top: 3px solid #3853a8;
-    height: 20px ;
-    width: 240px;
+    margin-right: 20px;
+   /* corners */
+   background:
+        linear-gradient(to right, #3853a8 6px, transparent 6px) 0 0,
+        linear-gradient(to right, #3853a8 6px, transparent 6px) 0% 100%,
+        linear-gradient(to left, #3853a8 6px, transparent 6px) 100% 0,
+        linear-gradient(to left, #3853a8 6px, transparent 6px) 100% 100%,
+        linear-gradient(to bottom, #3853a8 6px, transparent 6px) 0 0,
+        linear-gradient(to bottom, #3853a8 6px, transparent 6px) 100% 0,
+        linear-gradient(to top, #3853a8 6px, transparent 6px) 0 100%,
+        linear-gradient(to top, #3853a8 6px, transparent 6px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
 }
 
 .point3{
     border: 3px solid #3853a8;
     padding: 0 30px;
     text-align-last: center;
-    margin: 0 0 0 20px;
-    /* height: 350px; */
 }
-.point3 h2::before {
-    content: "";
-    display: block;
-    border-top: 3px solid #3853a8;
-    height: 10px;
-    width: 580px;
-}
-.point2-3{
+.container2{
     display: flex;
-    position: relative;
 }
