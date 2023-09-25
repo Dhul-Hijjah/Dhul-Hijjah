@@ -29,26 +29,41 @@ color: #e0e0d6;
  height: 40px;
  
 }
-.char {
-    text-align: center;
+ 
+.box{
+text-align: center;  width: 300px;
+margin-left: 700px;
+
 }
-.char h2{
+
+.box h2{
 font-family: 'Marko One';
 font-size: 30px;
 color: rgb(46, 46, 140);
-}
-.char p{
-    font-family: 'Open Sans';
-    font-size: x-small;
+text-align: center; 
 
 }
-.char h3{
+
+.box p{
+    font-family: 'Open Sans';
+    font-size: x-small;
+    color: black;
+    text-align: center;
+
+}
+
+.box h3{
     font-family: 'Marko One';
     font-size: 30px;
     color: rgb(46, 46, 140);
+    text-align: center; 
+
     }
-    .char h4{
+
+    .box h4{
         font-family: 'Marko One';
         font-size: 30px;
         color: rgb(46, 46, 140);
+        text-align: center; 
         }
+    
