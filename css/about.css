@@ -94,7 +94,7 @@
 }
 
 .big-box{
-border: hidden 2px black;
+/* border: hidden 2px black; */
 margin: 0 0 0 10vh;
 padding:0px  100px;
 }
@@ -109,6 +109,7 @@ padding:0px  100px;
 
 }
 .icons{
+
   border: hidden 2px green;
   margin:auto ;
   padding: 10px;
@@ -137,7 +138,11 @@ padding:0px  100px;
   }
 .b1{
   display: flex;
-  margin: 50px 50px;
+  margin: 50px 50px 0;
+}
+.b2{
+display: flex;
+margin: 0 50px;
 }
 .p3{
   border:hidden 2px black;
