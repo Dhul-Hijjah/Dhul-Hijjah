@@ -1,17 +1,21 @@
   /* Before footer*/
+  * {
+      box-sizing: border-box;
+  }
+
 
   .Top {
-
-
       display: flex;
       margin-top: 0px;
       justify-content: center;
+
   }
 
   .ph1 {
 
       height: 650px;
       margin-top: 62px;
+
   }
 
   .head .title span {
@@ -27,7 +31,7 @@
 
   form {
       margin-left: 35px;
-      height: 100%;
+      height: 600px;
   }
 
   input {
@@ -64,11 +68,10 @@
   textarea {
       border: #3853a8 3px solid;
       background-color: rgb(244, 235, 223);
-      width: 80%;
-      height: 100px;
       font-size: 20px;
-      padding: 50px;
+      padding: 45px;
       font-weight: bold;
+      resize: none;
   }
 
   textarea::placeholder {
@@ -82,7 +85,6 @@
   footer {
       background-color: #010c2e;
       margin: 0;
-
   }
 
   .heading {
@@ -131,7 +133,8 @@
 
   .content {
       margin-left: 10vh;
-      padding-top: 6vh;
+      padding-top: 5vh;
+
   }
 
   .heading img {
@@ -178,4 +181,5 @@
       float: right;
       clear: both;
       margin-right: 7vh;
+
   }
