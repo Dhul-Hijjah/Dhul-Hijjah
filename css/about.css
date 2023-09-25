@@ -28,8 +28,7 @@
  .button button{
     float: left;
     padding: 8px 50px;
-    margin: 30px;
-    color:#f0f0f0;
+    margin: 50px 20px 0px 20px;    color:#f0f0f0;
     background-color:#333;
 }
 .p2{
@@ -58,12 +57,98 @@
     float: left;
   }
   .p button h1{
-    border: 2px solid black ;
+    border:hidden 2px  black ;
   }
   .image{
-    margin: 10px;
+    border: hidden 2px black;
+    margin: 20px;
+    padding: 10px;
   }
   .image img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
+.artbox{
+  border: hidden 2px black;
+    margin: 20px;
+    padding: 10px;
+}
+.page {
+  border: hidden 2px red;
+   margin: 0px;
+}
+.page2{
+ 
+  border: hidden 2px red;
+  margin-top: 200px;
+
+}
+.page2 h1{
+  border: hidden 2px black;
+  text-align: center;
+  font-family: 'Marko One';
+    font-size: 50px;
+  margin: 10px 20px 10px 20px;
+  color: #3853a8;
+
+}
+
+.big-box{
+/* border: hidden 2px black; */
+margin: 0 0 0 10vh;
+padding:0px  100px;
+}
+.about-box {
+  margin: 1vh 10vh 7vh 0vh;
+  border: solid 5px #3853a8;
+  font-family: 'Cairo';
+  padding: 1vh;
+  display: flex;
+  height: 150px;
+  border-spacing: 15px;
+
+}
+.icons{
+
+  border: hidden 2px green;
+  margin:auto ;
+  padding: 10px;
+   width: 100px;
+  height: 100px;
+}
+
+  .text{
+    margin: 10px;
+    border: hidden 2px green;
+  }
+  .text p{
+    padding: 0px;
+  }
+  .text h3{
+  font-family: 'Marko One';
+  color:#1e1828;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0;
+    
+  }
+  .text p{
+    padding: 0px;
+    margin: 0;
+  }
+.b1{
+  display: flex;
+  margin: 50px 50px 0;
+}
+.b2{
+display: flex;
+margin: 0 50px;
+}
+.p3{
+  border:hidden 2px black;
+  margin: 5px 400px ;
+  text-align: center;
+}
+ p{
+  padding: -1px;
+}
