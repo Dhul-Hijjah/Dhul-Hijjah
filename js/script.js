@@ -1,3 +1,4 @@
+// Responsive Navbar
 function Navbar() {
     const navbarLinks = document.querySelectorAll('.navbar li a');
     navbarLinks.forEach(link => {
@@ -8,3 +9,17 @@ function Navbar() {
         }
     });
 }
+// Move To Top
+document.addEventListener("DOMContentLoaded", function() {
+  
+  let myImage = document.getElementById("toTop");
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      myImage.style.display = "block";
+    } else {
+      myImage.style.display = "none";
+    }
+  }
+});

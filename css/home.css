@@ -6,6 +6,9 @@
     margin: 0px;
     padding: 0px;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   /* Navbar */
   .navbar {
     margin: 5vh 5vh 0vh 5vh;
@@ -116,8 +119,24 @@
   /* ID's */
   #nav{ display: none;}
   #contact{ display: none;}
-
-  /* Responsive */
+  /* Features */
+  .features {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.089);
+    position: fixed; bottom: 20%; right: 0;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .features img{
+    border-radius: 50%;
+    border: dashed 1px ;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  #toTop{
+    display: none;
+  }
 
   @media (min-width: 1051px) and (max-width: 1420px) {
     .main {
