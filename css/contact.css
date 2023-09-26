@@ -179,7 +179,7 @@ footer {
 /* Responsive */
 
 /* Mobiles */
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .Top {
         display: block;
         margin-left: 20%;
@@ -192,7 +192,6 @@ footer {
 
     form {
         margin: 0px;
-        height: px;
     }
 
     input {
@@ -209,17 +208,22 @@ footer {
     textarea {
         font-size: 30px;
         border: 5px solid #3853a8;
+        margin: auto;
+        width: 80%;
     }
-
-
-
 }
 
-/* Small screens */
-@media (min-width: 768px) and (max-width: 991px) {}
-
-/* Medium screens */
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-/* Large screens */
-@media (min-width: 1200px) {}
+@media  (max-width: 1050px) {
+    body{ zoom: 0.8; }
+    .content{ margin: 0px; }
+}
+@media  (max-width: 950px){
+    body{ zoom: 0.7; }
+}
+@media  (max-width: 850px){
+    body{ zoom: 0.6; }
+}
+@media  (max-width: 500px){
+    body{ zoom: 0.4; }
+    .features img{ width: 8vh; }
+}
