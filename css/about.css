@@ -1,154 +1,181 @@
- 
- *{
-    box-sizing: border-box;
+ * {
+   box-sizing: border-box;
  }
+
  /* Slider */
- .slider{
-  background-color: #4054ac;
-  margin: 5vh 0vh 5vh 0vh;
-  display: flex;
-  justify-content: space-around;
+ .slider {
+   background-color: #4054ac;
+   margin: 5vh 0vh 5vh 0vh;
+   display: flex;
+   justify-content: space-around;
  }
- .slide{
-  margin: 2vh;
-  background-color: #e8e4d4;
-  border-radius: 10px;
-  text-align: center;
-  padding: 2vh;
+
+ .slide {
+   margin: 2vh;
+   background-color: #e8e4d4;
+   border-radius: 10px;
+   text-align: center;
+   padding: 2vh;
  }
- .slide h1{
-  font-family: 'Marko One';
-  color: #040c34;
+
+ .slide h1 {
+   font-family: 'Marko One';
+   color: #040c34;
  }
- .slider p{
-  font-family: 'Open Sans';
-  color: #595959;
+
+ .slider p {
+   font-family: 'Open Sans';
+   color: #595959;
  }
+
  /* Main */
- .button button{
-    float: left;
-    padding: 8px 50px;
-    margin: 50px 20px 0px 20px;    color:#f0f0f0;
-    background-color:#333;
-}
-.p2{
-    font-size: 15px;
-    margin: 0px;
-    font-weight: 900;
-    font-family: 'Open Sans';
-    color: #060f30;
-    margin: 0px 20px 0px 20px;
-  }
- .page p{
-    color: #595959;
-  }
-  .page{
-    display: flex;
-  }
-  .artbox{
-    display: flex;
-    flex-direction: column;
-  }
-  .artbox h1{
-    font-family: 'Marko One';
-    font-size: 50px;
-    margin: 0px 20px 0px 20px;
-    color: #3853a8;
-    float: left;
-  }
-  .p button h1{
-    border:hidden 2px  black ;
-  }
-  .image{
-    border: hidden 2px black;
-    margin: 20px;
-    padding: 10px;
-  }
-  .image img{
-    width: 350px;
-    height: 350px;
-  }
-.artbox{
-  border: hidden 2px black;
-    margin: 20px;
-    padding: 10px;
-}
-.page {
-  border: hidden 2px red;
+ .button button {
+   float: left;
+   padding: 8px 50px;
+   margin: 50px 20px 0px 20px;
+   color: #f0f0f0;
+   background-color: #333;
+ }
+
+ .p2 {
+   font-size: 15px;
    margin: 0px;
-}
-.page2{
- 
-  border: hidden 2px red;
-  margin-top: 200px;
+   font-weight: 900;
+   font-family: 'Open Sans';
+   color: #060f30;
+   margin: 0px 20px 0px 20px;
+ }
 
-}
-.page2 h1{
-  border: hidden 2px black;
-  text-align: center;
-  font-family: 'Marko One';
-    font-size: 50px;
-  margin: 10px 20px 10px 20px;
-  color: #3853a8;
+ .page p {
+   color: #595959;
+ }
 
-}
+ .page {
+   display: flex;
+ }
 
-.big-box{
-/* border: hidden 2px black; */
-margin: 0 0 0 10vh;
-padding:0px  100px;
-}
-.about-box {
-  margin: 1vh 10vh 7vh 0vh;
-  border: solid 5px #3853a8;
-  font-family: 'Cairo';
-  padding: 1vh;
-  display: flex;
-  height: 150px;
-  border-spacing: 15px;
+ .artbox {
+   display: flex;
+   flex-direction: column;
+ }
 
-}
-.icons{
+ .artbox h1 {
+   font-family: 'Marko One';
+   font-size: 50px;
+   margin: 0px 20px 0px 20px;
+   color: #3853a8;
+   float: left;
+ }
 
-  border: hidden 2px green;
-  margin:auto ;
-  padding: 10px;
+ .p button h1 {
+   border: hidden 2px black;
+ }
+
+ .image {
+   border: hidden 2px black;
+   margin: 20px;
+   padding: 10px;
+ }
+
+ .image img {
+   width: 350px;
+   height: 350px;
+ }
+
+ .artbox {
+   border: hidden 2px black;
+   margin: 20px;
+   padding: 10px;
+ }
+
+ .page {
+   border: hidden 2px red;
+   margin: 0px;
+ }
+
+ .page2 {
+
+   border: hidden 2px red;
+   margin-top: 200px;
+
+ }
+
+ .page2 h1 {
+   border: hidden 2px black;
+   text-align: center;
+   font-family: 'Marko One';
+   font-size: 50px;
+   margin: 10px 20px 10px 20px;
+   color: #3853a8;
+
+ }
+
+ .big-box {
+   /* border: hidden 2px black; */
+   margin: 0 0 0 10vh;
+   padding: 0px 100px;
+ }
+
+ .about-box {
+   margin: 1vh 10vh 7vh 0vh;
+   border: solid 5px #3853a8;
+   font-family: 'Cairo';
+   padding: 1vh;
+   display: flex;
+   height: 150px;
+   border-spacing: 15px;
+
+ }
+
+ .icons {
+
+   border: hidden 2px green;
+   margin: auto;
+   padding: 10px;
    width: 100px;
-  height: 100px;
-}
+   height: 100px;
+ }
 
-  .text{
-    margin: 10px;
-    border: hidden 2px green;
-  }
-  .text p{
-    padding: 0px;
-  }
-  .text h3{
-  font-family: 'Marko One';
-  color:#1e1828;
-  font-size: 25px;
-  padding: 0px;
-  margin: 0;
-    
-  }
-  .text p{
-    padding: 0px;
-    margin: 0;
-  }
-.b1{
-  display: flex;
-  margin: 50px 50px 0;
-}
-.b2{
-display: flex;
-margin: 0 50px;
-}
-.p3{
-  border:hidden 2px black;
-  margin: 5px 400px ;
-  text-align: center;
-}
- p{
-  padding: -1px;
-}
+ .text {
+   margin: 10px;
+   border: hidden 2px green;
+ }
+
+ .text p {
+   padding: 0px;
+ }
+
+ .text h3 {
+   font-family: 'Marko One';
+   color: #1e1828;
+   font-size: 25px;
+   padding: 0px;
+   margin: 0;
+
+ }
+
+ .text p {
+   padding: 0px;
+   margin: 0;
+ }
+
+ .b1 {
+   display: flex;
+   margin: 50px 50px 0;
+ }
+
+ .b2 {
+   display: flex;
+   margin: 0 50px;
+ }
+
+ .p3 {
+   border: hidden 2px black;
+   margin: 5px 400px;
+   text-align: center;
+ }
+
+ p {
+   padding: -1px;
+
+ }
