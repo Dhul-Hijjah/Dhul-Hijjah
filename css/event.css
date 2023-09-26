@@ -65,7 +65,6 @@
 .tips-p{
     border: 2px solid hidden ; 
     padding-right: 20vh;
-    margin-right: 10px;
 }
 .tips-p h1{
     color: #3853a8;
@@ -86,7 +85,6 @@ hr{
 .point1{
     border: 3px solid #3853a8;
     padding: 0 30px;
-    margin-left: 50px; ;
     text-align-last: center;
 }
 
@@ -95,7 +93,8 @@ hr{
     padding: 0 30px;
     text-align-last: center;
     margin-right: 20px;
-   /* corners */
+
+   /* bold corners */
    background:
         linear-gradient(to right, #3853a8 6px, transparent 6px) 0 0,
         linear-gradient(to right, #3853a8 6px, transparent 6px) 0% 100%,
@@ -118,3 +117,25 @@ hr{
 .container2{
     display: flex;
 }
+
+/* responsive */
+@media ( max-width: 800px ) {
+    .container1, .container2 , .para{
+        display: block;
+    }
+    .tips-p{
+    padding: 0;
+    }  
+}
+    /* zoom */
+ @media (max-width: 800px) {
+     body {
+         zoom: 0.7;
+     }
+ }
+
+ @media (max-width: 550px) {
+     body {
+         zoom: 0.5;
+     }
+ }

@@ -182,16 +182,9 @@ footer {
 @media (max-width: 700px) {
     .Top {
         display: block;
-        margin-left: 20%;
-    }
+        justify-content: center;
+        text-align: center;
 
-    .ph1 {
-        margin-top: 0;
-        margin-left: 15%;
-    }
-
-    form {
-        margin: 0px;
     }
 
     input {
@@ -202,7 +195,7 @@ footer {
 
     .head .title {
         font-size: 60px;
-        margin: 0;
+
     }
 
     textarea {
@@ -213,17 +206,34 @@ footer {
     }
 }
 
-@media  (max-width: 1050px) {
-    body{ zoom: 0.8; }
-    .content{ margin: 0px; }
+@media (max-width: 1050px) {
+    body {
+        zoom: 0.8;
+    }
+
+    .content {
+        margin: 0px;
+    }
 }
-@media  (max-width: 950px){
-    body{ zoom: 0.7; }
+
+@media (max-width: 950px) {
+    body {
+        zoom: 0.7;
+    }
 }
-@media  (max-width: 850px){
-    body{ zoom: 0.6; }
+
+@media (max-width: 850px) {
+    body {
+        zoom: 0.6;
+    }
 }
-@media  (max-width: 500px){
-    body{ zoom: 0.4; }
-    .features img{ width: 8vh; }
+
+@media (max-width: 500px) {
+    body {
+        zoom: 0.4;
+    }
+
+    .features img {
+        width: 8vh;
+    }
 }
