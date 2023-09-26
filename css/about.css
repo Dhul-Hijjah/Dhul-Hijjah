@@ -7,8 +7,7 @@
    background-color: #4054ac;
    margin: 5vh 0vh 5vh 0vh;
    display: flex;
-   justify-content: center;
-   gap: 3vh;
+   justify-content: space-around;
  }
 
  .slide {
@@ -33,10 +32,13 @@
  .button button{
     float: left;
     padding: 8px 50px;
-    margin: 50px 20px 0px 20px;    color:#f0f0f0;
+    margin: 50px 20px 0px 20px; 
+    color:#f0f0f0;
     background-color:#333;
 }
 .p2{
+  border:  solid grey ;
+  border-width: 10px 250px 0 0;
     font-size: 15px;
     margin: 0px;
     font-weight: 900;
@@ -55,8 +57,10 @@
     flex-direction: column;
   }
   .artbox h1{
+    border:2px hidden hotpink  ; 
+     border-width: 10px 2px 0 0;
     font-family: 'Marko One';
-    font-size: 50px;
+    font-size: 70px;
     margin: 0px 20px 0px 20px;
     color: #3853a8;
     float: left;
@@ -66,17 +70,19 @@
   }
   .image{
     border: hidden 2px black;
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 70px 0 0 0;
+    justify-content: center;
+
   }
   .image img{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
   }
 .artbox{
   border: hidden 2px black;
-    margin: 20px;
-    padding: 10px;
+    margin: 40px;
+    padding: 40px;
 }
 .page {
   border: hidden 2px red;
@@ -92,7 +98,7 @@
   border: hidden 2px black;
   text-align: center;
   font-family: 'Marko One';
-    font-size: 50px;
+    font-size: 70px;
   margin: 10px 20px 10px 20px;
   color: #3853a8;
 }
@@ -100,9 +106,11 @@
  .button button {
    float: left;
    padding: 8px 50px;
-   margin: 50px 20px 0px 20px;
+   margin: 20px 20px 0px 20px;
    color: #f0f0f0;
    background-color: #333;
+   width: 250px;
+   height: 40px;
  }
 
  .p2 {
@@ -174,7 +182,7 @@ padding:0px  100px;
   border-right: 4px solid #3853a8;
 }
 .icons{
-
+  
   border: hidden 2px green;
   margin:auto ;
   padding: 20px;
