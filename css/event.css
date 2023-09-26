@@ -95,7 +95,7 @@ hr{
     padding: 0 30px;
     text-align-last: center;
     margin-right: 20px;
-   /* corners */
+   /* bold corners */
    background:
         linear-gradient(to right, #3853a8 6px, transparent 6px) 0 0,
         linear-gradient(to right, #3853a8 6px, transparent 6px) 0% 100%,
