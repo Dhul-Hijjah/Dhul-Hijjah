@@ -1,23 +1,47 @@
   /* Before footer*/
 
   /*Responsive*/
-  @media (max-width: 600px) and (max-width: 768px) {
+  @media (max-width: 600px) {
 
       #section {
           flex-direction: column;
+          width: 590px;
+          justify-content: center;
       }
 
       #ph1 {
           display: block;
-          margin-left: 27vh;
+          margin-left: 4vh;
           width: 70%;
-
 
       }
 
       #form {
           display: block;
-          margin-right: 12vh;
+
+      }
+
+  }
+
+  @media (max-width: 768px) {
+
+      #section {
+          flex-direction: column;
+          width: 600px;
+          margin-left: 34vh;
+
+      }
+
+      #ph1 {
+          display: block;
+          margin-left: 25vh;
+          width: 70%;
+
+      }
+
+      #form {
+          display: block;
+          margin-left: 12vh;
       }
 
   }
