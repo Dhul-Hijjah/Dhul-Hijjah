@@ -42,7 +42,8 @@ justify-content: center;
 
 .box p{
     color: #090808f9; 
-    font-size: small;
+    font-size: small; 
+margin-top: 20px;
 }
 
 .box h2{
