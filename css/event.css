@@ -1,11 +1,7 @@
  * {
      box-sizing: border-box;
  }
-
- body {
-     margin: 0 60px;
- }
-
+ 
  .center {
      display: block;
      margin: 0 auto;
