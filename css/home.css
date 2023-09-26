@@ -86,6 +86,9 @@
     margin: 0px;
     font-family: 'Marko One';
   }
+  .btn h1{
+    color: #3853a8;
+  }
   .box p{ margin: 0px; }
   /* Border Gap */
   .bord-gab::before, .bord-gab::after {
@@ -107,10 +110,8 @@
     cursor: grab;
     transition: 0.5s;
   }
-  .btn:hover{
-    color: #e8e4d4;
-    background-color: #3853a8;
-  }
+  .btn:hover{ background-color: #3853a8;}
+  .btn h1:hover{ color: #e8e4d4;}
   /* ID's */
   #nav{ display: none;}
   #contact{ display: none;}
