@@ -77,7 +77,7 @@
   .box{
     margin: 1vh 0vh 7vh 0vh;
     font-family: 'Cairo';
-    padding: 1vh;
+    padding: 2vh;
     background: #e8e4d4;
     position: relative;
     border: solid 3px #3853a8;
@@ -86,28 +86,34 @@
     margin: 0px;
     font-family: 'Marko One';
   }
-  #nav{ display: none;}
-  #contact{ display: none;}
-
-  #button:hover{
-    cursor: pointer;
-    background-color: rgba(241, 240, 233, 0.769)
-  }
+  .box p{ margin: 0px; }
   /* Border Gap */
-.bord-gab::before, .bord-gab::after {
+  .bord-gab::before, .bord-gab::after {
     position: absolute;
     background: inherit;
     content: '';
-}
-.bord-gab::before {
+  }
+  .bord-gab::before {
     width: 100px;
     left: calc(50% - 50px);
     height: calc(100% + 10px);
     top: -3px;
-}
-.bord-gab > * {
+  }
+  .bord-gab > * {
     position: relative; z-index: 2;
-}
+  }
+  .bord-gab:hover{
+    background: fixed;
+    cursor: grab;
+    transition: 0.5s;
+  }
+  .btn:hover{
+    color: #e8e4d4;
+    background-color: #3853a8;
+  }
+  /* ID's */
+  #nav{ display: none;}
+  #contact{ display: none;}
 
   /* Responsive */
 
