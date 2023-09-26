@@ -111,7 +111,8 @@
     transition: 0.5s;
   }
   .btn:hover{ background-color: #3853a8;}
-  .btn h1:hover{ color: #e8e4d4;}
+  .btn h1:hover{ color: #e8e4d4;
+  }
   /* ID's */
   #nav{ display: none;}
   #contact{ display: none;}
