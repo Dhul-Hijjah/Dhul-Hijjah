@@ -29,26 +29,35 @@ color: #e0e0d6;
  height: 40px;
  
 }
-.char {
+ 
+.char{
     text-align: center;
 }
+
 .char h2{
 font-family: 'Marko One';
 font-size: 30px;
 color: rgb(46, 46, 140);
+text-align: center;
 }
+
 .char p{
     font-family: 'Open Sans';
     font-size: x-small;
-
+color: #090808f9;    text-align: center;
 }
+
 .char h3{
     font-family: 'Marko One';
     font-size: 30px;
     color: rgb(46, 46, 140);
+    text-align: center;
     }
+
     .char h4{
         font-family: 'Marko One';
         font-size: 30px;
         color: rgb(46, 46, 140);
+        text-align: center;
         }
+    
