@@ -225,5 +225,5 @@ footer {
 }
 @media  (max-width: 500px){
     body{ zoom: 0.4; }
-    .features img{ width: 8vh; }
+    .features img{ width: 8vh; } 
 }
