@@ -1,4 +1,29 @@
   /* Before footer*/
+
+  /*Responsive*/
+  @media (max-width: 600px) and (max-width: 768px) {
+
+      #section {
+          flex-direction: column;
+      }
+
+      #ph1 {
+          display: block;
+          margin-left: 27vh;
+          width: 70%;
+
+
+      }
+
+      #form {
+          display: block;
+          margin-right: 12vh;
+      }
+
+  }
+
+
+
   * {
       box-sizing: border-box;
   }
@@ -44,7 +69,7 @@
   }
 
 
-  #submit {
+  .submit {
       border: #3853a8 2px solid;
       background-color: #3853a8;
       color: blanchedalmond;
@@ -58,7 +83,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
 
-  #submit:hover {
+  .submit:hover {
       background-color: #1a2a5c;
       cursor: pointer;
       border: hidden;
@@ -187,3 +212,5 @@
   .icons {
       height: 100px;
   }
+
+  /*Footer*/
