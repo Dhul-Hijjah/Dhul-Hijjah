@@ -76,9 +76,11 @@
   }
   .box{
     margin: 1vh 0vh 7vh 0vh;
-    border: solid 3px #3853a8;
     font-family: 'Cairo';
     padding: 1vh;
+    background: #e8e4d4;
+    position: relative;
+    border: solid 3px #3853a8;
   }
   .box h1{
     margin: 0px;
@@ -91,6 +93,21 @@
     cursor: pointer;
     background-color: rgba(241, 240, 233, 0.769)
   }
+  /* Border Gap */
+.bord-gab::before, .bord-gab::after {
+    position: absolute;
+    background: inherit;
+    content: '';
+}
+.bord-gab::before {
+    width: 100px;
+    left: calc(50% - 50px);
+    height: calc(100% + 10px);
+    top: -3px;
+}
+.bord-gab > * {
+    position: relative; z-index: 2;
+}
 
   /* Responsive */
 
