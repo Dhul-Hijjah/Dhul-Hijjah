@@ -1,75 +1,20 @@
-  /* Before footer*/
 
-  /*Responsive*/
-  @media (max-width: 600px) {
+/*Before Footer*/
 
-      #section {
-          flex-direction: column;
-          width: 590px;
-          justify-content: center;
-      }
-
-      #ph1 {
-          display: block;
-          margin-left: 4vh;
-          width: 70%;
-
-      }
-
-      #form {
-          display: block;
-
-      }
-
-  }
-
-  @media (max-width: 768px) {
-
-      #section {
-          flex-direction: column;
-          width: 600px;
-          margin-left: 34vh;
-
-      }
-
-      #ph1 {
-          display: block;
-          margin-left: 25vh;
-          width: 70%;
-
-      }
-
-      #form {
-          display: block;
-          margin-left: 12vh;
-      }
-
-  }
-
-
-
-  * {
-      box-sizing: border-box;
-  }
-
+* { box-sizing: border-box; }
 
   .Top {
       display: flex;
       margin-top: 0px;
       justify-content: center;
-
   }
 
   .ph1 {
-
       height: 650px;
       margin-top: 62px;
-
   }
 
-  .head .title span {
-      text-decoration: underline;
-  }
+  .head .title span { text-decoration: underline; }
 
   .head .title {
       color: #3853a8;
@@ -92,14 +37,12 @@
       font-weight: bold;
   }
 
-
   .submit {
       border: #3853a8 2px solid;
       background-color: #3853a8;
       color: blanchedalmond;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-weight: bold;
-
   }
 
   input::placeholder {
@@ -123,17 +66,13 @@
       resize: none;
   }
 
-  textarea::placeholder {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  /* Before footer*/
+  textarea::placeholder { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
   /*footer*/
 
   footer {
       background-color: #010c2e;
-      margin: 0;
+      margin: 0px;
   }
 
   .heading {
@@ -141,8 +80,9 @@
       font-size: 50px;
       color: #e8e4d4;
       margin-left: 5vh;
+      margin-top: 0px;
   }
-
+  
   .paragraph {
       color: #e8e4d4;
       font-family: Arial, Helvetica, sans-serif;
@@ -194,17 +134,9 @@
       margin-top: 10px;
   }
 
-  .navs .col1 {
-      padding-left: 15vh;
-  }
-
-  .navs .col2 {
-      padding-left: 15vh;
-  }
-
-  .navs .col3 {
-      padding-left: 15vh;
-  }
+  .navs .col1 ,
+  .navs .col2 ,
+  .navs .col3 { padding-left: 15vh; }
 
   .icons {
       margin-left: 5vh;
@@ -230,11 +162,8 @@
       float: right;
       clear: both;
       margin-right: 7vh;
-
   }
 
-  .icons {
-      height: 100px;
-  }
+  .icons { height: 100px; }
 
-  /*Footer*/
+  /* Responsive */
