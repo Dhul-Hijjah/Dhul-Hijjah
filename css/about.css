@@ -7,7 +7,8 @@
    background-color: #4054ac;
    margin: 5vh 0vh 5vh 0vh;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   gap: 3vh;
  }
 
  .slide {
