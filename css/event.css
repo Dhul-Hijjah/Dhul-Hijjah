@@ -136,9 +136,9 @@ hr{
     body p{
         font-size: 30px;
     }
-    
+
     button{
-        margin: 0 30px;
+        margin: 0 0 10px 0;
         padding: 15px 66px;
         font-size: 20px;
     }
