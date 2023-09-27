@@ -1,7 +1,14 @@
  * {
      box-sizing: border-box;
  }
- 
+ body h1, h2{
+    font-size:25px ;
+    font-family: 'Marko One';
+}
+ body p{
+    font-size: 15px;
+    font-family: 'Open Sans';
+}
  .center {
      display: block;
      margin: 0 auto;
@@ -22,13 +29,7 @@
      width: 60px;
      margin-left: 5px;
  }
- .container h2{
-    font-family: 'Marko One';
- }
- .container p{
-    font-family: 'Open Sans';
-    flex: 1;
- }
+ 
 
  .para{
     display: flex;
@@ -42,6 +43,7 @@
      background-color: #010021;
      color: white;
      margin:0 10px ;
+     font-size: 15px;
  }
 .buttons{
     display: flex;
@@ -68,13 +70,11 @@
 }
 .tips-p h1{
     color: #3853a8;
-    font-family: 'Marko One';
     font-size: 50px;
 }
 
 .num{
     font-size: 50px;
-    font-family: 'Marko One';
     color: #3853a8;
 }
 hr{
@@ -126,9 +126,15 @@ hr{
     .tips-p{
     padding: 0;
     }  
+    body h1, h2{
+        font-size: 50px;
+    }
+    body p{
+        font-size: 30px;
+    }
 }
     /* zoom */
- @media (max-width: 800px) {
+ /* @media (max-width: 800px) {
      body {
          zoom: 0.7;
      }
@@ -138,4 +144,4 @@ hr{
      body {
          zoom: 0.5;
      }
- }
+ } */
