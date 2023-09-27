@@ -192,9 +192,17 @@
     body{
       zoom: 0.7;
     }
+    .features img{
+      width: 6vh;
+    }
   }
   @media (max-width: 550px) {
     body{
       zoom: 0.5;
+    }
+  }
+  @media (max-width: 500px) {
+    body {
+        zoom: 0.4;
     }
   }
