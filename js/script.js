@@ -24,6 +24,12 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 //Dark Mode
+function DarkMode() {
+  var elements = document.querySelectorAll('*');
+  elements.forEach(function(element) {
+    element.style.backgroundColor = '#d3bdab';
+  });
+}
 
 //  Arabic
 function Home_AR() {
