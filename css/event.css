@@ -123,7 +123,7 @@ hr{
 }
 
 /* responsive */
-@media ( max-width: 1050px ) {
+@media (min-width:500px) and ( max-width: 1050px){
     .container1, .container2 , .para{
         display: block;
     }
@@ -145,11 +145,19 @@ hr{
     .buttons{
         padding: 20px;
     }
+
+    .container h2::before {
+        content: "";
+        display: block;
+        border-top: 3px solid #3853a8;
+        height: 10px;
+        width: 16vh;
+        margin-left: 5px;
+    }
 }
 
-
     /* zoom */
- /* @media (max-width: 800px) {
+ @media (max-width: 800px) {
      body {
          zoom: 0.7;
      }
@@ -159,4 +167,4 @@ hr{
      body {
          zoom: 0.5;
      }
- } */
+ }
