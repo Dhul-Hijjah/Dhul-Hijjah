@@ -29,6 +29,8 @@
  }
 
  /* Main */
+ /*container*/
+ /*page 1*/
  .button button{
     float: left;
     padding: 8px 50px;
@@ -88,22 +90,7 @@
   border: hidden 2px red;
    margin: 15vh;
 }
-.page2{
- 
-  border: hidden 2px red;
-  margin-top: 100px;
-
-}
-.page2 h1{
-  border: hidden 2px black;
-  text-align: center;
-  font-family: 'Marko One';
-    font-size: 70px;
-  margin: 10px 20px 10px 20px;
-  color: #3853a8;
-}
-
- .button button {
+.button button {
    float: left;
    padding: 8px 50px;
    margin: 20px 20px 0px 20px;
@@ -129,6 +116,22 @@
  .page {
    display: flex;
  }
+
+/*page 2*/
+.page2{
+ 
+  border: hidden 2px red;
+  margin-top: 100px;
+
+}
+.page2 h1{
+  border: hidden 2px black;
+  text-align: center;
+  font-family: 'Marko One';
+    font-size: 70px;
+  margin: 10px 20px 10px 20px;
+  color: #3853a8;
+}
 
 .big-box{
  border: hidden 2px black; 
@@ -222,6 +225,7 @@ padding:0px  100px;
 display: flex;
 margin: 0 50px;
 }
+/*the*/
 .p3{
   border:hidden 2px black;
   margin: 5px 400px ;
