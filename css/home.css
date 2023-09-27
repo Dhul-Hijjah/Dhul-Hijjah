@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Cairo+Play:wght@200&family=Handjet&family=Marko+One&family=Rakkas&family=Tajawal:wght@200&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Marko+One&display=swap');
   body{
     background-color: #e8e4d4;
     margin: 6vh;
@@ -57,7 +57,7 @@
     margin-bottom: 1vh;
   }
   .art .title{
-    font-family: 'Marko One';
+    font-family: 'Marko One','Cairo';
     font-size: 100px;
     margin: 0px;
     color: #3853a8;
@@ -66,7 +66,7 @@
     font-size: 26px;
     margin: 0px;
     font-weight: 900;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans','Cairo';
     color: #060f30;
     margin: 0px 20px 0px 20px;
   }
@@ -87,7 +87,7 @@
   }
   .box h1{
     margin: 0px;
-    font-family: 'Marko One';
+    font-family: 'Marko One','Cairo';
   }
   .btn h1{
     color: #3853a8;
@@ -137,6 +137,9 @@
   #toTop{
     display: none;
   }
+  .features img:hover{
+    filter: brightness(1.1);
+  }
 
   @media (min-width: 1051px) and (max-width: 1420px) {
     .main {
@@ -149,12 +152,6 @@
     }
   }
   @media (max-width: 1050px) {
-    .cloud{
-      display: none;
-    }
-    .navbar .Title{
-      display: none;
-    }
     .navbar li{
       display: block;
       padding: 0px;
@@ -165,44 +162,30 @@
       text-align: center;
       justify-content: c;
     }
-    .navbar{
-      text-align: center;
-    }
-    #contact{
-      display: block;
-    }
-    #nav{
-      display: block;
-    }
     .main{
-     flex-direction: column;
-     margin: auto;
-     margin-top: 5vh;
-     overflow: hidden;
-    }
-    #art2{
+      flex-direction: column;
+      margin: auto;
       margin-top: 5vh;
+      overflow: hidden;
     }
     body{
       display: flex;
       flex-direction: column;
     }
+    .cloud{ display: none; }
+    .navbar .Title{ display: none; }
+    .navbar{ text-align: center; }
+    #contact{ display: block; }
+    #nav{ display: block; }
+    #art2{ margin-top: 5vh; }
   }
   @media (max-width: 800px) {
-    body{
-      zoom: 0.7;
-    }
-    .features img{
-      width: 6vh;
-    }
+    body{ zoom: 0.7; }
+    .features img{ width: 6vh; }
   }
   @media (max-width: 550px) {
-    body{
-      zoom: 0.5;
-    }
+    body{ zoom: 0.5; }
   }
   @media (max-width: 500px) {
-    body {
-        zoom: 0.4;
-    }
+    body { zoom: 0.4; }
   }
