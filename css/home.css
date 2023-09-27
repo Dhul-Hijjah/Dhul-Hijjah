@@ -134,22 +134,16 @@
     margin-bottom: 10px;
     cursor: pointer;
   }
-  #toTop{
-    display: none;
-  }
-  .features img:hover{
-    filter: brightness(1.1);
-  }
-
+  #toTop{ display: none; }
+  .features img:hover{ filter: brightness(1.1); }
+  /* Responsive */
   @media (min-width: 1051px) and (max-width: 1420px) {
     .main {
         margin: auto;
         width: 580px;
         flex-direction: column;
     }
-    #art2{
-      margin-top: 2vh;
-    }
+    #art2{ margin-top: 2vh; }
   }
   @media (max-width: 1050px) {
     .navbar li{
@@ -189,3 +183,4 @@
   @media (max-width: 500px) {
     body { zoom: 0.4; }
   }
+  /* Team Work (: */
