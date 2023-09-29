@@ -122,19 +122,23 @@
 .big-box{
   border: hidden 2px black; 
   display: flex;
+  flex-direction: row;
+  margin:0px;
+  padding:2vh 15vh 0vh 20vh ;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5vh;
-  margin-bottom: 3vh;
 }
+
 /*The style of the box*/
 .about-box {
+  margin: 0vh 5vh 7vh 0vh;
   font-family: 'Cairo';
+  padding: 1vh;
   display: flex;
+  height: 120px;
   position: relative;
-}
-.about-box p{
-  width: 500px;
+  width: 430px;
+  
 }
 /*corner border*/
 .top-border,
@@ -143,7 +147,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 30%;
+  height: 25%;
 }
 .top-border {
   top: 0;
@@ -179,18 +183,19 @@
 /*Icon*/
 .icons{
   border: hidden 2px green;
-  margin:auto ;
+  margin:0px ;
   padding: 20px;
-   width: 100px;
-   height: 100px;
+   width: 110px;
+   height: 110px;
  }
 
 /*Border contains the title and the paragragh*/
   .text{
-    margin: 10px;
+    margin: 0px;
     font-family: 'Cairo';
     border: hidden 2px green;
     padding: 10px;
+    width: 300px;
   }
   /*Title*/
    .text h3{
@@ -207,29 +212,19 @@
     font-size: x-small;
  padding: 0px;
     margin: 0;
+    width: auto;
 }
  
-  
-
-/* .b1{
-  display: flex;
-  margin: 50px 50px 0;
-}
-.b2{
-  display: flex;
-  margin: 0 50px;
-} */
-
 /*footer*/
 .p3{
-  border:hidden 2px black;
-  width: 700px;
-  margin: 5px 400px ;
+  border:hiiden 2px black;
+  width: 400px;
+  margin: 5px 700px 0px 570px ;
   text-align: center;
   font-family: 'Open Sans';
-    font-size: x-small;
-
+  font-size: x-small;
 }
+
 
 /*Responsive*/
 
