@@ -30,17 +30,43 @@
 
  /* Main */
  /*container*/
- /*page 1*/
- .button button{
+
+ /*The first half of the main page*/
+  .page{
+    display: flex;
+    border: hidden 2px red;
+   margin: 15vh;
+   padding: 0px;
+  }
+
+ /*paragraghs font color*/
+  .page p{
+    color: #595959;
+  }
+  /*boxcontains heading, paragraph, and the button*/
+  .artbox{
+    display: flex;
+    border: hidden 2px black;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px 0px 40px 0px;
     float: left;
-    padding: 8px 50px;
-    margin: 50px 20px 0px 20px; 
-    color:#f0f0f0;
-    background-color:#333;
-}
+  }
+
+/*Heading*/
+ .artbox h1{
+    border:2px hidden hotpink  ; 
+    width: 700px ;
+    font-family: 'Marko One';
+    font-size: 70px;
+    margin: 0px 20px 0px 20px;
+    color: #3853a8;
+    float: left;
+  }
+ /*Paragraph*/
 .p2{
-  border:  solid grey ;
-  border-width: 10px 250px 0 0;
+  border: 2px hidden grey ;
+  width: 430px;
     font-size: 15px;
     margin: 0px;
     font-weight: 900;
@@ -48,29 +74,20 @@
     color: #060f30;
     margin: 0px 20px 0px 20px;
   }
- .page p{
-    color: #595959;
-  }
-  .page{
-    display: flex;
-  }
-  .artbox{
-    display: flex;
-    flex-direction: column;
-  }
-  .artbox h1{
-    border:2px hidden hotpink  ; 
-     border-width: 10px 2px 0 0;
-    font-family: 'Marko One';
-    font-size: 70px;
-    margin: 0px 20px 0px 20px;
-    color: #3853a8;
+ 
+ /*Button*/
+  .button button{
     float: left;
-  }
-  .p button h1{
-    border:hidden 2px  black ;
-  }
-  .image{
+    border: 2px hidden red;
+    padding: 8px 50px;
+    margin: 75px 20px 0px 20px; 
+    color:#f0f0f0;
+    background-color:#333;
+    width: 250px;
+    height: 40px;
+}
+/*The image*/
+ .image{
     border: hidden 2px black;
     margin: 0px;
     padding: 70px 0 0 0;
@@ -79,80 +96,58 @@
   }
   .image img{
     width: 450px;
-    height: 450px;
+    height: 480px;
   }
-.artbox{
-  border: hidden 2px black;
-    margin: 40px;
-    padding: 40px;
-}
-.page {
-  border: hidden 2px red;
-   margin: 15vh;
-}
-.button button {
-   float: left;
-   padding: 8px 50px;
-   margin: 20px 20px 0px 20px;
-   color: #f0f0f0;
-   background-color: #333;
-   width: 250px;
-   height: 40px;
- }
 
- .p2 {
-   font-size: 15px;
-   margin: 0px;
-   font-weight: 900;
-   font-family: 'Open Sans';
-   color: #060f30;
-   margin: 0px 20px 0px 20px;
- }
 
- .page p {
-   color: #595959;
- }
 
- .page {
-   display: flex;
- }
-
-/*page 2*/
+/*The second half of the main page*/
 .page2{
  
   border: hidden 2px red;
   margin-top: 100px;
-
 }
+ 
+/*Heading*/
 .page2 h1{
   border: hidden 2px black;
   text-align: center;
   font-family: 'Marko One';
-    font-size: 70px;
+  font-size: 70px;
   margin: 10px 20px 10px 20px;
   color: #3853a8;
 }
 
+/*Border contains the four boxes*/
 .big-box{
- border: hidden 2px black; 
-margin: 0 0 0 15vh;
-padding:0px  100px;
+  border: hidden 2px black; 
+  display: flex;
+  flex-direction: row;
+  margin:0px;
+  padding:2vh 15vh 0vh 20vh ;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+/*The style of the box*/
 .about-box {
-  margin: 0vh 15vh 7vh 0vh;
+  margin: 0vh 5vh 7vh 0vh;
   font-family: 'Cairo';
   padding: 1vh;
   display: flex;
   height: 120px;
   position: relative;
+  width: 430px;
+  
 }
+/*corner border*/
 .top-border,
 .bottom-border{
   position: absolute;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 30%;
+  height: 25%;
 }
 .top-border {
   top: 0;
@@ -184,55 +179,65 @@ padding:0px  100px;
 .bottom-border:after {
   border-right: 4px solid #3853a8;
 }
+
+/*Icon*/
 .icons{
-  
   border: hidden 2px green;
-  margin:auto ;
+  margin:0px ;
   padding: 20px;
-   width: 100px;
-   height: 100px;
+   width: 110px;
+   height: 110px;
  }
 
+/*Border contains the title and the paragragh*/
   .text{
-    margin: 10px;
+    margin: 0px;
     font-family: 'Cairo';
     border: hidden 2px green;
     padding: 10px;
+    width: 300px;
   }
-  .text p{
-    font-family: 'Open Sans';
-    font-size: x-small;
-
-}
-  .text h3{
+  /*Title*/
+   .text h3{
   font-family: 'Marko One';
   color:#1e1828;
   font-size: 25px;
   padding: 0px;
   margin: 0;
   font-weight: 900;
-   
   }
+/*paragraph*/
   .text p{
-    padding: 0px;
+    font-family: 'Open Sans';
+    font-size: x-small;
+ padding: 0px;
     margin: 0;
-  }
-.b1{
-  display: flex;
-  margin: 50px 50px 0;
+    width: auto;
 }
-.b2{
-display: flex;
-margin: 0 50px;
-}
-/*the*/
+ 
+/*footer*/
 .p3{
-  border:hidden 2px black;
-  margin: 5px 400px ;
+  border:hiiden 2px black;
+  width: 400px;
+  margin: 5px 700px 0px 570px ;
   text-align: center;
   font-family: 'Open Sans';
-    font-size: x-small;
+  font-size: x-small;
 }
- p{
-  padding: -1px;
+
+
+/*Responsive*/
+
+/*small screens*/
+@media(max-width:767px){
+
+}
+
+/*Medium screens*/
+@media(min-width:768px){
+
+}
+/*Large screens*/
+@media(min-width:1200px){
+
 }
